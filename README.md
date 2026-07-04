@@ -10,7 +10,7 @@ A modular automation framework for Yoko GS200 and DMM-based device characterizat
 
 
 ## 📁 Folder Structure
-
+```
 Si_MOSFET_measurement_app/
 ├── archive/              # Deprecated scripts (e.g., main3.py)
 ├── configs/              # Device and experiment configuration
@@ -31,7 +31,7 @@ Si_MOSFET_measurement_app/
 │       ├── logger.py     # Data formatting & file I/O
 │       └── plotter.py    # Real-time Matplotlib visualization
 └── README.md
-
+```
 
 ## 🚀 How to Run
 1. Open Visual Studio Code and navigate to:
