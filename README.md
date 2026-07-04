@@ -9,7 +9,7 @@ A modular automation framework for Yoko GS200 and DMM-based device characterizat
 </p>
 
 
-##📁 Folder Structure
+## 📁 Folder Structure
 Si_MOSFET_measurement_app/
 ├── archive/              # Deprecated scripts (e.g., main3.py)
 │
