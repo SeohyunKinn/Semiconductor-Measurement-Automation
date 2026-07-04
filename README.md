@@ -12,31 +12,25 @@ A modular automation framework for Yoko GS200 and DMM-based device characterizat
 ## 📁 Folder Structure
 Si_MOSFET_measurement_app/
 ├── archive/              # Deprecated scripts (e.g., main3.py)
-│
 ├── configs/              # Device and experiment configuration
 │   └── device_config.py  # GPIB addresses, voltage ranges, save paths
-│
 ├── experiments/          # Automatically saved results
 │   ├── data/             # Raw measurement data (.txt, .csv)
 │   └── figures/          # Generated plots (.png)
-│
 ├── src/                  # Core source code
 │   ├── main.py           # Entry point (Main UI execution)
-│   │
 │   ├── core/             # Hardware control & measurement logic
 │   │   ├── driver.py     # PyVISA-based instrument classes
 │   │   ├── sweep.py      # 1D/2D Sweep algorithms & Threading
 │   │   └── monitor.py    # Time-based DMM reading
-│   │
 │   ├── gui/              # User Interface (Tkinter)
 │   │   ├── main_ui.py    # Primary control window
 │   │   └── sub_ui.py     # Pop-up windows for specific tasks
-│   │
 │   └── utils/            # Common utilities
 │       ├── logger.py     # Data formatting & file I/O
 │       └── plotter.py    # Real-time Matplotlib visualization
-│
 └── README.md
+
 
 ## 🚀 How to Run
 1. Open Visual Studio Code and navigate to:
